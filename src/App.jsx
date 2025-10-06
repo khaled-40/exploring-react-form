@@ -1,6 +1,7 @@
 
 import './App.css'
 import ControlledForms from './Components/ControlledForms/ControlledForms'
+import CustomHookForm from './Components/CustomHookForm/CustomHookForm'
 import FormAction from './Components/FormAction/FormAction'
 import SubmitForm from './Components/SubmitForm/SubmitForm'
 import UncontrolledForms from './Components/UncontrolledForms/UncontrolledForms'
@@ -15,7 +16,8 @@ function App() {
       {/* <SubmitForm></SubmitForm> */}
       {/* <FormAction></FormAction> */}
       {/* <ControlledForms></ControlledForms> */}
-      <UncontrolledForms></UncontrolledForms>
+      {/* <UncontrolledForms></UncontrolledForms> */}
+      <CustomHookForm></CustomHookForm>
       
     </>
   )
